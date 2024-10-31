@@ -1,0 +1,72 @@
+/* This is the main css of all pages */
+
+div.Container-class
+{
+   width: 98vw;
+   height: 97.5vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-image: url('MainBg.jpeg');
+   background-size: cover;
+   background-position: center; 
+   background-repeat: no-repeat; 
+   z-index: -1;
+    
+   
+}
+
+form.formSpace
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    gap:20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 40vh;
+    text-align: center;
+    background-color: black;
+    
+}
+
+label.emailClass
+{
+margin-top: 20px;
+}
+
+input.emailBox
+{
+text-align: center;
+width: 250px;
+border-radius: 10px;
+margin-left: 29%;
+height: 30px;
+margin-top: -10px;
+}
+
+label.passwordClass
+{
+    margin-top: 20px;
+}
+
+input.passwordBox
+{
+text-align: center;
+width: 250px;
+margin-left: 29%;
+border-radius: 10px;
+height: 30px;
+margin-top: -10px;
+}
+
+button.submitButton
+{
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 42%;
+    height: 40px;
+    margin-top: 10px;
+}
