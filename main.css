@@ -2,34 +2,46 @@
 
 div.Container-class
 {
-   width: 98vw;
+   width: 99.1vw;
    height: 97.5vh;
    display: flex;
+   overflow-y: auto;
+   overflow-x: hidden;
+   
+}
+
+div.Container-class::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+img.imageClass
+{
+height: 99vh;
+width: 45vw;
+} 
+
+div.loginFlex
+{
+   display: flex;
    justify-content: center;
-   align-items: center;
-   text-align: center;
-   background-image: url('MainBg.jpeg');
-   background-size: cover;
-   background-position: center; 
-   background-repeat: no-repeat; 
-   z-index: -1;
-    
+   align-items: center; 
+   flex-direction: column;
    
 }
 
 form.formSpace
 {
-    
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
-    gap:20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    height: 40vh;
-    text-align: center;
-    background-color: black;
-    
+display: flex;
+flex-direction: column;
+width:42vw;
+gap:30px;
+border: 3px solid #7d7d7d;
+border-radius: 20px;
+height: 40vh;
+text-align: center;
+margin-left: 112px;  
 }
 
 label.emailClass
@@ -41,15 +53,18 @@ input.emailBox
 {
 text-align: center;
 width: 250px;
-border-radius: 10px;
+border-radius: 5px;
 margin-left: 29%;
 height: 30px;
-margin-top: -10px;
+margin-top: -20px;
+border-width: 3px;
+border-color: black;
+border-style: solid;
 }
 
 label.passwordClass
 {
-    margin-top: 20px;
+margin-top: 20px;
 }
 
 input.passwordBox
@@ -57,16 +72,26 @@ input.passwordBox
 text-align: center;
 width: 250px;
 margin-left: 29%;
-border-radius: 10px;
+border-radius: 5px;
 height: 30px;
-margin-top: -10px;
+margin-top: -25px;
+border-width: 3px;
+border-color: black;
+border-style: solid;
 }
 
 button.submitButton
 {
-    width: 100px;
-    border-radius: 50px;
-    margin-left: 42%;
-    height: 40px;
-    margin-top: 10px;
+width: 100px;
+border-radius: 50px;
+margin-left: 42%;
+height: 40px;
+margin-top: 20px;
+} 
+
+a.signUplink
+{
+margin-top: 80px;
+text-decoration: none;
+margin-left: 112px;  
 }
