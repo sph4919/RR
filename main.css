@@ -1,5 +1,7 @@
 /* This is the main css of all pages */
 
+
+/* login page */
 div.Container-class
 {
    width: 99.1vw;
@@ -94,4 +96,196 @@ a.signUplink
 margin-top: 80px;
 text-decoration: none;
 margin-left: 112px;  
+}
+
+
+/* This is for the the signup page */
+
+body.bodyContainer
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: green;
+
+}
+
+
+div.signUpContainer
+{
+   
+   background-color: aliceblue;
+   width: 50%;
+   border-color: black;
+   border-width: 0.2px;
+   border-style: solid;
+   height: 100vh;
+   overflow-y: auto;
+   margin-top: -10px;
+
+}
+
+
+div.signUpContainer::-webkit-scrollbar
+{
+   
+  display: none;
+
+}
+
+
+
+div.formContainer
+{
+  padding-left: 22%;
+  padding-top:100px;
+  line-height: 80px;
+}
+
+input.FNinputBox
+{
+   margin-left: 30px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.MNinputBox
+{
+   margin-left: 13px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.LNinputBox
+{
+   margin-left: 32px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.DOBinputBox
+{
+   margin-left: 68px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.UNinputBox
+{
+   margin-left: 30px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.EMinputBox
+{
+   margin-left: 65px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.PSinputBox
+{
+   margin-left: 42px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.CPSinputBox
+{
+   margin-left: 42px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.SNinputBox
+{
+   margin-left: 23px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.PCinputBox
+{
+   margin-left: 26px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.CITYinputBox
+{
+   margin-left: 75px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+input.PROVinputBox
+{
+   margin-left: 45px;
+   height: 30px;
+   border-color: black;
+   border-radius: 5px;
+   border-width: 3px;
+   border-style: solid;
+   text-align: center;
+   width: 280px;
+}
+button.signUpSubmitButton
+{
+   margin-left: 170px;
+   height: 40px;
+   border-radius: 20px;
+   margin-top: 40px;
+}
+
+img.RRLogo
+{
+   border-radius: 50%;
+   margin-left: 315px;
+   margin-bottom: -80px;
 }
