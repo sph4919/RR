@@ -6,6 +6,7 @@
     <title>LoginRiders</title>
     <link rel="StyleSheet" href="main.css">
     <link rel="shortcut icon" href="Imgs/favi.ico" type="image/x-icon">
+    <script src="js/eventHandler.js"></script>
 </head>
 <body>
 
@@ -17,12 +18,14 @@
     </div>
 
     <div class="loginFlex">
-     <form method="-" class="formSpace">
-        <label class="emailClass">Email </label> <input type="textbox" placeholder="abc123@anymail.com" class="emailBox">
+    <p class="advice" id="adviceBox">Enter you Email and Password</p>
+
+     <form method="post" class="formSpace">
+        <label class="emailClass">Email </label> <input type="textbox" placeholder="abc123@anymail.com" class="emailBox" id="loginEmail">
         
-         <label class="passwordClass">Password </label> <input type="password" placeholder="Enter Password" class="passwordBox">
+         <label class="passwordClass" >Password </label> <input type="password" placeholder="Enter Password" class="passwordBox" id="loginPassword">
         
-        <button type="Submit" class="submitButton">Lets's Ride</button>
+        <button type="Submit" class="submitButton" >Lets's Ride</button>
         
      </form> 
      <a href="signUp.html" class="signUplink">Sign Up For new rider account</a>
@@ -32,4 +35,5 @@
 
     
 </body>
+<script src="js/index.js"></script>
 </html>
