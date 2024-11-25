@@ -6,6 +6,7 @@
     <title>SignUpRider</title>
     <link rel="StyleSheet" href="main.css">
     <link rel="shortcut icon" href="Imgs/favi.ico" type="image/x-icon">
+    <script src="js/eventHandler.js"></script>
 </head>
 <body class="bodyContainer">
     
@@ -15,40 +16,40 @@
         <form method="post">
             <div class="formContainer">
     
-             <label>First Name : </label><input type="text" placeholder="firstName" class="FNinputBox">
+             <label>First Name : </label><input type="text" placeholder="firstName" class="FNinputBox" id="fName">
              <br>
           
-             <label>Middle Name : </label><input type="text" placeholder="middleName" class="MNinputBox">
+             <label>Middle Name : </label><input type="text" placeholder="middleName" class="MNinputBox" id="mName">
              <br>
              
-             <label>Last Name : </label><input type="text" placeholder="lastName" class="LNinputBox">
+             <label>Last Name : </label><input type="text" placeholder="lastName" class="LNinputBox" id="lName">
              <br>
           
-             <label>DOB : </label><input type="date" class="DOBinputBox">
+             <label>DOB : </label><input type="date" class="DOBinputBox" id="dob">
              <br>
            
-             <label>User Name : </label><input type="userName" placeholder="autoGenerate" class="UNinputBox" >
+             <label>User Name : </label><input type="userName" placeholder="autoGenerate" class="UNinputBox" id="uName">
              <br>
            
-             <label>Email : </label><input type="email" placeholder="abc123@any.com" class="EMinputBox">
+             <label>Email : </label><input type="email" placeholder="abc123@any.com" class="EMinputBox" id="emailSignUp">
              <br>
            
-             <label>Password : </label><input type="password" placeholder="Enter the password" class="PSinputBox">
+             <label>Password : </label><input type="password" placeholder="Enter the password" class="PSinputBox" id="passwordSignUp">
              <br>
            
-             <label>RE-Enter : </label><input type="password" placeholder="Enter the pass Again" class="CPSinputBox">
+             <label>RE-Enter : </label><input type="password" placeholder="Enter the pass Again" class="CPSinputBox" id="CpasswordSignUp">
              <br>
            
-             <label>Street Name : </label><input type="text" placeholder="Enter the street name" class="SNinputBox">
+             <label>Street Name : </label><input type="text" placeholder="Enter the street name" class="SNinputBox" id="streetName">
              <br>
            
-             <label>Postal Code : </label><input type="text" placeholder="Postal Code" class="PCinputBox">
+             <label>Postal Code : </label><input type="text" placeholder="Postal Code" class="PCinputBox" id="postalCode">
              <br>
           
-             <label>City :  </label><input tpye="text" placeholder="City" class="CITYinputBox">
+             <label>City :  </label><input tpye="text" placeholder="City" class="CITYinputBox" id="city">
              <br>
           
-             <label>Province : </label> <input type="text" placeholder="Province" class="PROVinputBox">
+             <label>Province : </label> <input type="text" placeholder="Province" class="PROVinputBox" id="province">
              <br>
 
              <button class="signUpSubmitButton" type="submit">SUBMIT</button>
@@ -61,4 +62,5 @@
 
     </div>
 </body>
+<script src="js/signUp.js"></script>
 </html>
